@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
 .container{
     width: 95%;
     margin: auto;
@@ -11,5 +15,32 @@
 .content{
     width: 60%;
     margin: auto;
+}
+
+#about{
+    margin-top: 60px;
+}
+
+#about h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.box{
+    width: 25%;
+    text-align: center;
+}
+
+.box i{
+    font-size: 200%;
+}
+
+.box p{
+    font-size: 80%;
+    color: gray;
+}
+
+.box h3, .box p{
+    line-height: 150%;
 }
 
