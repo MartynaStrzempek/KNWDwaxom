@@ -5,6 +5,7 @@
 
 body{
     font-family: "Open Sans", sans-serif;
+    color: #333333;
 }
 
 .container{
@@ -23,12 +24,14 @@ body{
 
 #about h1{
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
+    font-size: 180%;
 }
 
 .box{
     width: 25%;
     text-align: center;
+    float: left;
 }
 
 .box i{
