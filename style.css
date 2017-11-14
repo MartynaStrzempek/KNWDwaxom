@@ -82,6 +82,10 @@ body{
     padding-bottom: 20px;
 }
 
+#purchase-text h1{
+    font-weight: 100;
+}
+
 #waxom{
     color: #bdab95;
 }
