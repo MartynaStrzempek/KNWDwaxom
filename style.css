@@ -82,11 +82,6 @@ body{
     padding-bottom: 20px;
 }
 
-#purchase-button{
-    width: 30%;
-    float: left;
-}
-
 #waxom{
     color: #bdab95;
 }
@@ -95,13 +90,19 @@ body{
     color: #7d684e;
 }
 
-#purchase button{
+#purchase-button{
+    width: 30%;
+    float: right;
+
+}
+
+.button{
     font-size: 85%;
     height: 36px;
-    width: 15%;
+    width: 45%;
     margin: 33px 0;
     background-color: #bdab95;
     border: none;
+    color: #ffffff;
+    float: right;
 }
-
-
