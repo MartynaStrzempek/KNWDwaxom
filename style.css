@@ -66,3 +66,34 @@ body{
     color: #c09064;
 }
 
+#purchase{
+    margin-top: 70px;
+    height: 100px;
+    background: linear-gradient(to right, #241d17 , #543321);
+    font-weight: lighter;
+    font-size: 80%;
+}
+
+#purchase-text{
+    width: 70%;
+    float: left;
+    color: #ffffff;
+}
+
+#purchase-button{
+    width: 30%;
+    float: left;
+}
+
+#waxom{
+    color: #c09064;
+}
+
+#purchase p{
+    color: #a38b6c;
+}
+
+#purchase-text{
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
