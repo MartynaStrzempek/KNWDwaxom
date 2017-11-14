@@ -109,4 +109,11 @@ body{
     border: none;
     color: #ffffff;
     float: right;
+    border-radius: 3px;
 }
+
+.button:hover{
+    cursor: pointer;
+    background-color: #7d684e;
+}
+
