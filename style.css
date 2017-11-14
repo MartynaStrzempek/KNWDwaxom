@@ -5,6 +5,7 @@
 
 body{
     font-family: "Open Sans", sans-serif;
+    color: #333333;
 }
 
 .nav
@@ -114,3 +115,114 @@ p {
     text-transform: uppercase;
     transition: all 0.3s;
   }
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.content{
+    width: 60%;
+    margin: auto;
+}
+
+#about{
+    margin-top: 60px;
+}
+
+#about h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 180%;
+}
+
+.box{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.box i{
+    font-size: 200%;
+}
+
+.box p{
+    font-size: 80%;
+    color: gray;
+}
+
+.box h3, .box p{
+    line-height: 150%;
+}
+
+.border{
+    width: 30%;
+    margin: auto;
+    padding-top: 20px;
+    border-bottom: 3px solid lightgray;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.box:hover .border{
+    border-bottom: 3px solid #bdab95;
+}
+
+.box:hover h3, .box:hover i{
+    color: #bdab95;
+}
+
+#purchase{
+    margin-top: 70px;
+    height: 100px;
+    background: linear-gradient(to right, #241d17 , #543321);
+    font-weight: lighter;
+    font-size: 80%;
+}
+
+#purchase-text{
+    width: 70%;
+    float: left;
+    color: #ffffff;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+
+#purchase-text h1{
+    font-weight: 100;
+}
+
+#waxom{
+    color: #bdab95;
+}
+
+#purchase p{
+    color: #7d684e;
+}
+
+#purchase-button{
+    width: 30%;
+    float: right;
+
+}
+
+.button{
+    font-size: 85%;
+    height: 36px;
+    width: 45%;
+    margin: 33px 0;
+    background-color: #bdab95;
+    border: none;
+    color: #ffffff;
+    float: right;
+    border-radius: 3px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #7d684e;
+}
+
+
