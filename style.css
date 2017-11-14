@@ -5,95 +5,112 @@
 
 body{
     font-family: "Open Sans", sans-serif;
-    color: #333333;
 }
 
-.container{
-    width: 95%;
-    margin: auto;
+.nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(153, 134, 117, 0.6);
 }
 
-.content{
-    width: 60%;
-    margin: auto;
+
+.logo
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+
 }
 
-#about{
-    margin-top: 60px;
+.buttons {
+  display: flex;
+
 }
 
-#about h1{
+.linkbutt
+{
+  text-decoration: none;
+  color: white;
+}
+
+.butt
+{
+  color: #fff;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.hero
+  {
+    background: url(./img/hero-background.png) no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+.inhero
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
     text-align: center;
-    padding-bottom: 50px;
-    font-size: 180%;
+    color: white;
+  }
+
+h2
+  {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+
+h1
+  {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
-.box{
-    width: 25%;
-    text-align: center;
-    float: left;
-}
-
-.box i{
-    font-size: 200%;
-}
-
-.box p{
-    font-size: 80%;
-    color: gray;
-}
-
-.box h3, .box p{
-    line-height: 150%;
-}
-
-.border{
-    width: 30%;
-    margin: auto;
-    padding-top: 20px;
-    border-bottom: 3px solid lightgray;
-}
-
-.box:hover{
-    cursor: pointer;
-}
-
-.box:hover .border{
-    border-bottom: 3px solid #c09064;
-}
-
-.box:hover h3, .box:hover i{
-    color: #c09064;
-}
-
-#purchase{
-    margin-top: 70px;
-    height: 100px;
-    background: linear-gradient(to right, #241d17 , #543321);
-    font-weight: lighter;
-    font-size: 80%;
-}
-
-#purchase-text{
-    width: 70%;
-    float: left;
-    color: #ffffff;
-}
-
-#purchase-button{
-    width: 30%;
-    float: left;
-}
-
-#waxom{
-    color: #c09064;
-}
-
-#purchase p{
-    color: #a38b6c;
-}
-
-#purchase-text{
-    padding-top: 27px;
-    padding-bottom: 20px;
-}
+.buttonGetStarted
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 30px;
+    padding: 0 30px;
+    border-radius: 5px;
+    background-color: #998675;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
