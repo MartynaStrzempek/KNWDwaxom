@@ -237,6 +237,11 @@ body{
     width: auto;
     margin-top: 65px;
 }
+
+#blog{
+    margin-bottom:50px;
+}
+
 #blog h1
 {
     text-align: center;
@@ -316,7 +321,8 @@ body{
     color: #c09064;
 }
 
-footer{
+#footer{
+    margin-bottom:45px;
     background-color: #241d17;
     color: #7d684e;
 }
