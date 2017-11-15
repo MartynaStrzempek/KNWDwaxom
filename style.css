@@ -8,6 +8,114 @@ body{
     color: #333333;
 }
 
+.nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(153, 134, 117, 0.6);
+}
+
+
+.logo
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+
+}
+
+.buttons {
+  display: flex;
+
+}
+
+.linkbutt
+{
+  text-decoration: none;
+  color: white;
+}
+
+.butt
+{
+  color: #fff;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.hero
+  {
+    background: url(./img/hero-background.png) no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+.inhero
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+    color: white;
+  }
+
+h2
+  {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+
+h1
+  {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+  }
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.buttonGetStarted
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 30px;
+    padding: 0 30px;
+    border-radius: 5px;
+    background-color: #998675;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+
 .container{
     width: 95%;
     margin: auto;
@@ -64,6 +172,11 @@ body{
 
 .box:hover h3, .box:hover i{
     color: #c09064;
+    border-bottom: 3px solid #bdab95;
+}
+
+.box:hover h3, .box:hover i{
+    color: #bdab95;
 }
 
 #purchase{
@@ -78,6 +191,7 @@ body{
     width: 70%;
     float: left;
     color: #ffffff;
+
 }
 
 #purchase-button{
@@ -219,5 +333,28 @@ body{
     border-right: 2px dotted #444444;
     font-size: 14px;
     text-align: right;
-
+    padding-top: 27px;
+    padding-bottom: 20px;
 }
+
+#purchase-text h1{
+    font-weight: 100;
+}
+
+.button{
+    font-size: 85%;
+    height: 36px;
+    width: 45%;
+    margin: 33px 0;
+    background-color: #bdab95;
+    border: none;
+    color: #ffffff;
+    float: right;
+    border-radius: 3px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #7d684e;
+}
+
