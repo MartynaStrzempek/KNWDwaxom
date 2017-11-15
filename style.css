@@ -207,6 +207,26 @@ body{
     padding-bottom: 20px;
 }
 
+#purchase-text h1{
+    font-weight: 100;
+}
+
+.button{
+    font-size: 85%;
+    height: 36px;
+    width: 45%;
+    margin: 33px 0;
+    background-color: #bdab95;
+    border: none;
+    color: #ffffff;
+    float: right;
+    border-radius: 3px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #7d684e;
+}
 
 #opcje
 {
@@ -296,60 +316,45 @@ body{
     color: #c09064;
 }
 
-
+footer{
+    background-color: #241d17;
+    color: #7d684e;
+}
 
 #footerL
 {
     float: left;
-    background-color: black;
-    margin-top: 90px;
-    margin-bottom: 45px;
-    height: 90px;
-    width: 100%;
-    
-
-
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 #footerR
 {
-    margin-right: 100px;
-
+    float: right;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .option
 {
     float: left;
     text-align: center;
     border-right: 2px dotted #444444;
     font-size: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
+
 .option2
 {
-    float: left;
+    float: right;
     border-right: 2px dotted #444444;
     font-size: 14px;
     text-align: right;
-    padding-top: 27px;
-    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-#purchase-text h1{
-    font-weight: 100;
-}
-
-.button{
-    font-size: 85%;
-    height: 36px;
-    width: 45%;
-    margin: 33px 0;
-    background-color: #bdab95;
-    border: none;
-    color: #ffffff;
-    float: right;
-    border-radius: 3px;
-}
-
-.button:hover{
-    cursor: pointer;
-    background-color: #7d684e;
-}
 
