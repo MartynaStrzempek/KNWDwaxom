@@ -259,66 +259,65 @@ body{
 }
 
 
-.nogi
+#nogi
 {
-    float: left;
-    padding: 20px;
-    width: auto;
-    text-align: 12px;
-    width: 205px;
-    margin-left: 15px;
+    text-align: center;
     font-size: 14px;
 }
-.pecet
+#pecet
 {
-    float: left;
-    padding: 20px;
-    width: 205px;
-    text-align: 12px;
+    text-align: center;
     font-size: 14px;
 }
-.ship
+#ship
 {
-    float: left;
-    padding: 20px;
-    width: 205px;
-    text-align: 12px;
+    text-align: center;
     font-size: 14px;
 
 }
-.pecet h4
+#pecet h4
 {
     font-size: 16px;
 }
-.ship h4
+#ship h4
 {
     font-size: 16px;
 }
-.nogi h4
+#nogi h4
 {
     font-size: 16px;
 }
 
-.nogi:hover
+#nogi:hover
 {
     cursor: pointer;
-    background-color:#665555 ;
+    background-color:#392f2f ;
 
 }
-.ship:hover
+#ship:hover
 {
     cursor: pointer;
-    background-color: #665555 ;
+    background-color: #392f2f ;
 }
-.pecet:hover
+#pecet:hover
 {
     cursor: pointer;
-    background-color:	#665555;
+    background-color:	#392f2f;
 }
 
 .tekstcolor
 {
-    color: #c09064;
+    color: #bdab95;
+}
+
+
+.img{
+    width: 33%;
+    float: left;
+}
+
+.img:hover p{
+    color: #ffffff;
 }
 
 #footer{
