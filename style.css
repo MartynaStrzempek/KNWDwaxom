@@ -8,6 +8,7 @@ body{
     color: #333333;
 }
 
+
 .nav
 {
   position: fixed;
@@ -167,6 +168,13 @@ p {
 }
 
 .box:hover .border{
+
+    border-bottom: 3px solid #c09064;
+}
+
+.box:hover h3, .box:hover i{
+    color: #c09064;
+
     border-bottom: 3px solid #bdab95;
 }
 
@@ -224,5 +232,4 @@ p {
     cursor: pointer;
     background-color: #7d684e;
 }
-
 
